@@ -21,6 +21,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8EA9B5AA3E9FC2225CB34662 /* Pods_ipv4ipv6Adapter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CE1564D390566A9340908C /* Pods_ipv4ipv6Adapter_Tests.framework */; };
+		E3EA1DFC855C14FCD840D6EA /* Pods_ipv4ipv6Adapter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA569258B20D43E8B6A5324 /* Pods_ipv4ipv6Adapter_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		077EF3551D03484CC797E21A /* Pods-ipv4ipv6Adapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipv4ipv6Adapter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ipv4ipv6Adapter_Example/Pods-ipv4ipv6Adapter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0CA569258B20D43E8B6A5324 /* Pods_ipv4ipv6Adapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ipv4ipv6Adapter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ipv4ipv6Adapter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipv4ipv6Adapter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,10 +57,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7C7CDEFA6F46498744570AA5 /* ipv4ipv6Adapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ipv4ipv6Adapter.podspec; path = ../ipv4ipv6Adapter.podspec; sourceTree = "<group>"; };
+		6AD103014AC77DE7264E39E0 /* Pods-ipv4ipv6Adapter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipv4ipv6Adapter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ipv4ipv6Adapter_Tests/Pods-ipv4ipv6Adapter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		71CE1564D390566A9340908C /* Pods_ipv4ipv6Adapter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ipv4ipv6Adapter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		765DE97D2C72DE422A7F8859 /* Pods-ipv4ipv6Adapter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipv4ipv6Adapter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ipv4ipv6Adapter_Tests/Pods-ipv4ipv6Adapter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7C7CDEFA6F46498744570AA5 /* ipv4ipv6Adapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ipv4ipv6Adapter.podspec; path = ../ipv4ipv6Adapter.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D0A18EB4E80CEA5465C3F9FA /* Pods-ipv4ipv6Adapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipv4ipv6Adapter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ipv4ipv6Adapter_Example/Pods-ipv4ipv6Adapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D8859F3A57057D01B5F6F043 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F0B0C11DF5BE73321BC0E38E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F0B0C11DF5BE73321BC0E38E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				E3EA1DFC855C14FCD840D6EA /* Pods_ipv4ipv6Adapter_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				8EA9B5AA3E9FC2225CB34662 /* Pods_ipv4ipv6Adapter_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +101,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
+				E6CE472DDF1A371E71305F21 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
+				0CA569258B20D43E8B6A5324 /* Pods_ipv4ipv6Adapter_Example.framework */,
+				71CE1564D390566A9340908C /* Pods_ipv4ipv6Adapter_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,6 +182,17 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		E6CE472DDF1A371E71305F21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0A18EB4E80CEA5465C3F9FA /* Pods-ipv4ipv6Adapter_Example.debug.xcconfig */,
+				077EF3551D03484CC797E21A /* Pods-ipv4ipv6Adapter_Example.release.xcconfig */,
+				6AD103014AC77DE7264E39E0 /* Pods-ipv4ipv6Adapter_Tests.debug.xcconfig */,
+				765DE97D2C72DE422A7F8859 /* Pods-ipv4ipv6Adapter_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ipv4ipv6Adapter_Example" */;
 			buildPhases = (
+				FC3995538365BD04BE3E4C69 /* 📦 Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				D36D451B5EBEE837FAD8BBDE /* 📦 Embed Pods Frameworks */,
+				2E9C83C17039047D8912FAC6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ipv4ipv6Adapter_Tests" */;
 			buildPhases = (
+				E138743606997A0B82BC758D /* 📦 Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				17D9C03901ABD7B8FE8BBD92 /* 📦 Embed Pods Frameworks */,
+				64DF7F8291F1F387C41AAF72 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,7 +252,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ipv4ipv6Adapter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -261,6 +291,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17D9C03901ABD7B8FE8BBD92 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ipv4ipv6Adapter_Tests/Pods-ipv4ipv6Adapter_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E9C83C17039047D8912FAC6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ipv4ipv6Adapter_Example/Pods-ipv4ipv6Adapter_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64DF7F8291F1F387C41AAF72 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ipv4ipv6Adapter_Tests/Pods-ipv4ipv6Adapter_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D36D451B5EBEE837FAD8BBDE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ipv4ipv6Adapter_Example/Pods-ipv4ipv6Adapter_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E138743606997A0B82BC758D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC3995538365BD04BE3E4C69 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
@@ -386,6 +509,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A18EB4E80CEA5465C3F9FA /* Pods-ipv4ipv6Adapter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -401,6 +525,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077EF3551D03484CC797E21A /* Pods-ipv4ipv6Adapter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -416,6 +541,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD103014AC77DE7264E39E0 /* Pods-ipv4ipv6Adapter_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -439,6 +565,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 765DE97D2C72DE422A7F8859 /* Pods-ipv4ipv6Adapter_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -459,7 +586,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "ipv4ipv6Adapter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,

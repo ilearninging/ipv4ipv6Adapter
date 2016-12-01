@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ipv4ipv6Adapter'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ipv4ipv6Adapter.'
+  s.summary          = 'ipv4ipv6Adapter'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    ipv4 ipv6 adapter
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/ipv4ipv6Adapter'
+  s.homepage         = 'https://github.com/ilearninging/ipv4ipv6Adapter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ilearninging' => '233551139@qq.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/ipv4ipv6Adapter.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ilearninging/ipv4ipv6Adapter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'ipv4ipv6Adapter' => ['ipv4ipv6Adapter/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.public_header_files = 'ipv4ipv6Adapter/Classes/**/*.h'
+   s.frameworks = 'UIKit'
+#  s.dependency 'AFNetworking', '~> 2.3'
 end
