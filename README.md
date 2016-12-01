@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ipv4ipv6Adapter
 
 [![CI Status](http://img.shields.io/travis/ilearninging/ipv4ipv6Adapter.svg?style=flat)](https://travis-ci.org/ilearninging/ipv4ipv6Adapter)
@@ -27,3 +28,6 @@ ilearninging, 233551139@qq.com
 ## License
 
 ipv4ipv6Adapter is available under the MIT license. See the LICENSE file for more info.
+=======
+# ipv4ipv6Adapter
+>>>>>>> 98a58b4c0efe4846da3b96347e390b6d21dcb67a
